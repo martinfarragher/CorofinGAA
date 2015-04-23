@@ -1,0 +1,72 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CorofinGAA.Gallery"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer>
+        <Grid x:Name="LayoutRoot" Height="768" Width="480">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1F6622" Offset="1"/>
+                    <GradientStop Color="#FFE2F70D"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"/>
+
+            <!--ContentPanel - place additional content here-->
+            <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+                <Grid Margin="0,-10,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="266*" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Height="Auto" Opacity="0.7" Margin="90,0,97,0">
+                        <TextBlock Text="CorofinGAA" HorizontalAlignment="Center" FontSize="50" Foreground="Yellow" Margin="-2,0,3,0" Width="268" Height="50" FontFamily="arial"/>
+                        <TextBlock Text="Club" HorizontalAlignment="Center" FontSize="50" Foreground="Yellow" Height="46" Margin="83,0" FontFamily="arial"/>
+                    </StackPanel>
+                    <TextBlock HorizontalAlignment="Left" Margin="20,36,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Gallery >"/>
+
+                </Grid>
+                <Button Content="All-Ireland Winners 2015" HorizontalAlignment="Left" Margin="78,162,0,0" VerticalAlignment="Top" Height="145" Width="315" Click="corofinnew_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/corofin8.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="All-Ireland Winnners 1998" HorizontalAlignment="Left" Margin="78,307,0,0" VerticalAlignment="Top" Height="145" Width="315" Click="corofinold_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/corofin9.jpg"/>
+                    </Button.Background>
+                </Button>
+                <Button Content="Teams" HorizontalAlignment="Left" Margin="78,457,0,0" VerticalAlignment="Top" Height="145" Width="315" Click="teams_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/images/corofin7.jpg"/>
+                    </Button.Background>
+                </Button>
+
+            </Grid>
+
+        </Grid>
+
+    </ScrollViewer>
+
+</phone:PhoneApplicationPage>

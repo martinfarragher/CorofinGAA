@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="CorofinGAA.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FF1F6622" Offset="1"/>
+                <GradientStop Color="#FFE2F70D"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"></StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="266*" />
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Height="Auto" Opacity="0.7" Margin="90,0,97,0">
+                    <TextBlock Text="CorofinGAA" HorizontalAlignment="Center" FontSize="50" Foreground="Yellow" Margin="-2,0,3,0" Width="268" Height="50" FontFamily="arial"/>
+                    <TextBlock Text="Club" HorizontalAlignment="Center" FontSize="50" Foreground="Yellow" Height="46" Margin="83,0" FontFamily="arial"/>
+                </StackPanel>
+                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Home >
+                           " VerticalAlignment="Top" Width="75"/>
+                <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="15,60,5,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Height="108" FontStyle="Italic" FontSize="40" >
+                	<Run Text="Welcome to"/>
+                	<Run Text="the"/>
+                	<Run Text="Corofin GAA"/>
+                	<Run Text="Club"/>
+                	<Run Text="app"/>
+                </TextBlock>
+                <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="10,186,10,0" Grid.Row="3" TextWrapping="Wrap" Text="We are a Gaelic Football team in County Galway and have numerous teams at different ages. " VerticalAlignment="Top" Height="87" Width="436" FontSize="22" Foreground="Yellow"/>
+                <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="37,298,0,0" Grid.Row="3" TextWrapping="Wrap" Text="We have a Senior, Intermediate, Junior A and Junior C team unlike any other team in the county. We have won 2 All-Ireland Club medals in 1998 and more recently 2015" VerticalAlignment="Top" Height="149" Width="369" FontSize="22" Foreground="Yellow"/>
+                <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Margin="71,468,33,0" Grid.Row="3" TextWrapping="Wrap" Text="Have a look through the app, try our quiz and look at our social sites through our contact page." VerticalAlignment="Top" Height="89" Width="352" FontSize="22" Foreground="Yellow"/>
+
+            </Grid>
+        </Grid>
+    </Grid>
+
+
+</phone:PhoneApplicationPage>
