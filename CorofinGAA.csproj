@@ -236,6 +236,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="CorofinGAA_2015_04_28_00_36_46.sap" />
+    <None Include="CorofinGAA_2015_04_28_00_40_59.sap" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml">
       <SubType>Designer</SubType>
@@ -296,7 +298,9 @@
     <Content Include="images\twitter.png" />
     <Content Include="images\twitter1.png" />
     <Content Include="images\windowsback.jpg" />
-    <Content Include="thumb.jpg" />
+    <Content Include="NewIcon_big.png" />
+    <Content Include="NewIcon_small.png" />
+    <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

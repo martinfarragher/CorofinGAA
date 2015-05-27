@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Resources;
 using System.Windows;
+using System.Threading;
 using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
@@ -28,6 +29,8 @@ namespace CorofinGAA
 
             // Standard XAML initialization
             InitializeComponent();
+
+            Thread.Sleep(5000);
 
             // Phone-specific initialization
             InitializePhoneApplication();

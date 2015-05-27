@@ -1,7 +1,9 @@
-﻿<xapCache source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\CorofinGAA_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="23/04/2015 23:33:02">
-  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\obj\x86\Debug\CorofinGAA.dll" archivePath="CorofinGAA.dll" lastWriteTime="23/04/2015 23:33:00" />
+﻿<xapCache source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\CorofinGAA_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="28/04/2015 00:23:42">
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\obj\x86\Debug\CorofinGAA.dll" archivePath="CorofinGAA.dll" lastWriteTime="28/04/2015 00:16:00" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="20/04/2015 22:20:53" />
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="20/04/2015 22:20:53" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="20/04/2015 22:20:53" />
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="20/04/2015 22:20:53" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="20/04/2015 22:20:53" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="20/04/2015 22:20:53" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="20/04/2015 22:20:53" />
@@ -40,9 +42,9 @@
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\images\twitter.png" archivePath="images\twitter.png" lastWriteTime="22/04/2015 14:57:41" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\images\twitter1.png" archivePath="images\twitter1.png" lastWriteTime="22/04/2015 14:58:43" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\images\windowsback.jpg" archivePath="images\windowsback.jpg" lastWriteTime="22/04/2015 16:15:00" />
-  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\thumb.jpg" archivePath="thumb.jpg" lastWriteTime="22/04/2015 01:15:42" />
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\NewIcon_small.png" archivePath="NewIcon_small.png" lastWriteTime="27/04/2015 23:54:03" />
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="28/04/2015 00:12:59" />
   <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="22/04/2015 12:56:31" />
-  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="20/04/2015 22:20:53" />
-  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="20/04/2015 22:20:53" />
-  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="22/04/2015 12:56:31" />
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\NewIcon_big.png" archivePath="NewIcon_big.png" lastWriteTime="27/04/2015 23:52:51" />
+  <file source="C:\Users\Martin\Desktop\CorofinGAA\CorofinGAA\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="28/04/2015 00:23:42" />
 </xapCache>

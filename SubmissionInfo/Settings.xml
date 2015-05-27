@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>StoreTile.png</SmallAppTile>
+  <ScreenShots>Screenshot_WVGA_01.png;Screenshot_WVGA_02.png;Screenshot_WVGA_03.png;Screenshot_WVGA_04.png;Screenshot_WVGA_05.png;Screenshot_WVGA_06.png;Screenshot_WVGA_07.png;;</ScreenShots>
+  <ScreenShotsWXGA>Screenshot_WXGA_01.png;Screenshot_WXGA_02.png;Screenshot_WXGA_03.png;Screenshot_WXGA_04.png;Screenshot_WXGA_05.png;Screenshot_WXGA_06.png;Screenshot_WXGA_07.png;;</ScreenShotsWXGA>
+  <ScreenShots720P>Screenshot_720P_01.png;Screenshot_720P_02.png;Screenshot_720P_03.png;Screenshot_720P_04.png;Screenshot_720P_05.png;Screenshot_720P_06.png;;;</ScreenShots720P>
+</MarketplaceDetails>
